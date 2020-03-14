@@ -9,19 +9,19 @@ const boxen = require('boxen')
 const options = {
   padding: 1,
   margin: 1,
-  borderStyle: 'round',
+  borderStyle: 'singleDouble',
 }
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('Stefan Natter /'),
-  handle: chalk.cyan('natterstefan'),
-  work: chalk.white('Software Engineer at Lovely Systems'),
-  twitter: chalk.cyan('twitter.com/natterstefan'),
-  github: chalk.cyan('github.com/natterstefan'),
-  linkedin: chalk.cyan('linkedin.com/in/natterstefan'),
-  web: chalk.cyan('natterstefan.com'),
-  npx: chalk.white('npx natterstefan'),
+  name: chalk.white('Ben Junya /'),
+  handle: chalk.cyan('MrBenJ'),
+  work: chalk.white('Lead Frontend Developer at StaffMeUp Inc.'),
+  twitter: chalk.cyan('twitter.com/MrBenJ5'),
+  github: chalk.cyan('github.com/mrbenj'),
+  linkedin: chalk.cyan('linkedin.com/in/benjunya'),
+  web: chalk.cyan('modernjsbyexample.net'),
+  npx: chalk.white('npx mrbenj'),
   labelWork: chalk.white.bold('      Work:'),
   labelTwitter: chalk.white.bold('   Twitter:'),
   labelGitHub: chalk.white.bold('    GitHub:'),
@@ -42,20 +42,22 @@ const carding = `${data.labelCard}  ${data.npx}`
 
 // Put all our output together into a single variable so we can use boxen effectively
 const output =
-  heading +
-  newline +
-  newline +
-  working +
-  newline +
-  twittering +
-  newline +
-  githubing +
-  newline +
-  linkedining +
-  newline +
-  webing +
-  newline +
-  newline +
-  carding
+`
+${heading}
+Full Stack Engineer | Speaker
+Writer | Kinda funny i guess
 
-console.log(chalk.green(boxen(output, options)))
+${working}
+${twittering}
+${githubing}
+${linkedining}
+${webing}
+
+${carding}
+`
+
+console.log(
+  chalk.cyanBright(
+    boxen(output, options)
+  )
+)

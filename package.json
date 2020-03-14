@@ -1,20 +1,20 @@
 {
-  "name": "natterstefan",
+  "name": "mrbenj",
   "version": "1.1.0",
-  "description": "Stefan Natter (@natterstefan)'s business card",
+  "description": "Ben Junya (@MrBenJ)'s Business card",
   "main": "./bin/card.js",
   "bin": {
-    "natterstefan": "./bin/card.js"
+    "mrbenj": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/natterstefan/businesscard.git"
+    "url": "https://github.com/mrbenj/businesscard.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "keywords": [],
-  "author": "Stefan Natter",
+  "author": "Ben Junya",
   "license": "MIT",
   "dependencies": {
     "boxen": "^4.1.0",
