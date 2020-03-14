@@ -1,6 +1,6 @@
 {
   "name": "mrbenj",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Ben Junya (@MrBenJ)'s Business card",
   "main": "./bin/card.js",
   "bin": {
