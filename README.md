@@ -1,12 +1,13 @@
-It's me, Stefan!
+IT ME
 
 # Usage
 
 ```bash
-npx natterstefan
+npx mrbenj
 ```
 
 # Credit
 
-Forked from [@bitandbang](https://twitter.com/bitandbang/status/1075473070368919552)
-([repo](https://github.com/bnb/bitandbang)) via [@mxstbr](https://github.com/mxstbr/)
+Forked from [@natterstefan](https://twitter.com/natterstefan/status/1201120725517717504)
+([repo](https://github.com/natterstefan/businesscard)) via [@mxstbr](https://github.com/natterstefan/)
+
